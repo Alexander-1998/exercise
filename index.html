@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ilink</title>
+    <link rel="stylesheet" href="./assets/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="nav_bar">
+        <div class="wrp">
+            <div class="logo">
+                <img src="./image/i-logo-1.png" alt="i-logo-1">
+                <img src="./image/i-logo-2.png" alt="i-logo-2">
+            </div>
+            <ul class="nav_list" id="nav_list">
+                <li class="list_item"><a href="#" class="nav_link">Jane Doe</a></li>
+                <li class="list_item"><a href="#" class="nav_link">Tell us about yourself</a></li>
+                <li class="list_item"><a href="#" class="nav_link">Slider</a></li>
+            </ul>
+
+
+        </div>
+    </nav>
+    <section class="about">
+        <div class="wrp_about">
+            <div class="rectange_one"></div>
+            <div class="rectange_two"></div>
+            <div class="about_left_col">
+                <img src="./image/photo-Jane.png" alt="Jane Doe">
+
+            </div>
+            <div class="about_right_col">
+                <h1>Jane Doe</h1>
+                <ul class="personal_info_list">
+                    <li class="personal_info_list_item">Date of birth <span>24.04.2001</span></li>
+                    <li class="personal_info_list_item">Gender <span>Female</span></li>
+                    <li class="personal_info_list_item">Country <span>Corea</span></li>
+                </ul>
+                <h2>About me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about_youtself">
+        <div class="rectangle_one_a"></div>
+        <div class="rectangle_two_a"></div>
+        <div class="rectangle_three_a"></div>
+        <div class="rectangle_four_a"></div>
+        <div class="rectangle_five_a"></div>
+        <div class="rectangle_six_a"></div>
+        <div class="wrp_about_yourself">
+            <h2>Tell us about yourself</h2>
+
+            <div class="top_row">
+                <div class="block">
+                    <label for="i-1" class="label_yourself">Your name</label>
+                    <input type="text" name="about_yourselsf" id="i-1" placeholder="Tell us your name">
+                </div>
+
+                <div class="block">
+                    <label for="select" class="label_yourself">Your gender</label>
+                    <div class="cnt_select" >
+                        <select name="yourself_select" id="select" class="select"  disabled>
+                            <option  class="selected_i">Choose your gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="middle_row">
+                <div class="block">
+                    <label for="i-3" class="label_yourself">Your country</label>
+                    <input type="text" name="about_yourselsf" placeholder="Where are you from?" id="i-3" disabled>
+                </div>
+
+
+                <div class="block">
+                    <label for="i-4" class="label_yourself">Your city</label>
+                    <input type="text" name="about_yourselsf" placeholder="Your native city" id="i-4" disabled>
+                </div>
+
+
+
+                <div class="block">
+                    <label for="i-5" class="label_yourself">Your date of birth</label>
+                    <input type="text" name="about_yourselsf" id="i-5" placeholder="dd.mm.yyyy" disabled>
+                </div>
+
+            </div>
+            <div class="bottom_row">
+                <form action="#" class="form_input" >
+                    <input type="file" class="file_input" hidden>
+                    <p>Proof your identity with some documents</p>
+                    <a class="upload_btn" id="upload_btn">Add document</a>
+                </form>
+                <section class="uploded">
+                    <div class="row">
+                        <div class="preview"><img src="" alt="photo"></div>
+                        <div class="cnt_name">
+                            <p class="name"></p>
+                            <p class="size"></p>
+                        </div>
+                        <i class="far fa-trash-alt" id="trash_can"></i>
+                    </div>
+                </section>
+            </div>
+            <div class="cnt_btn_about">
+                <a class="btn_about"   disabled>Send info</a>
+                <div class="cnt_check">
+                    <input type="checkbox" name="checkbox" id="check" disabled>
+                    <i class="fas fa-check"></i>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="slider">
+        <div class="wrp_slider">
+            <div class="cnt_slider">
+                <button id="prev" class="prev_btn arrow">&lt;</button>
+                <button id="next" class="next_btn arrow">&gt;</button>
+                <div class="slide_box">
+
+                    <div class="slide slide_one">
+                        <h1 class="slide_caption">Slide this photo</h1>
+                        <p class="slide_descr"> Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
+                        <p class="slide_descr"> cillum dolore eu fugiat nulla pariatur </p>
+                    </div>
+                    <div class="slide slide_two">
+                        <h1 class="slide_caption">Slide this photo</h1>
+                        <p class="slide_descr"> Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
+                        <p class="slide_descr"> cillum dolore eu fugiat nulla pariatur </p>
+                    </div>
+                    <div class="slide slide_three">
+                        <h1 class="slide_caption">Slide this photo</h1>
+                        <p class="slide_descr"> Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
+                        <p class="slide_descr"> cillum dolore eu fugiat nulla pariatur </p>
+                    </div>
+
+                </div>
+
+                <div class="cnt_item">
+                    <input type="radio" name="item" class="item_one item" onclick="func()">
+                    <input type="radio" name="item" class="item_two item" onclick="func()" checked>
+                    <input type="radio" name="item" class="item_three item" onclick="func()">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="./assets/main.js"></script>
+</body></html>
